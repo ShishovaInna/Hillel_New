@@ -16,6 +16,7 @@ while answer_str == "Y":
     else:
         print("Невідома математична дія")
     answer_str = input("Продовжуємо? Натисніть Y/N: ").upper()
-    answer_str = answer_str[0]
+    if answer_str in ["Y", "YES"]:
+        answer_str = "Y"
 else:
     print("До зустрічі наступного разу!")
