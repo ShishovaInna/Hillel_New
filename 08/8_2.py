@@ -4,7 +4,6 @@ def is_palindrome(text):
         if char.isalnum():
             cleaned_text += char.lower()
 
-    new_text = ''
     new_text = cleaned_text[::-1]
 
     if new_text == cleaned_text:
