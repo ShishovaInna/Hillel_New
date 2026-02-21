@@ -1,4 +1,4 @@
-def difference(*args):
+def difference(*args: int | float) -> int | float:
     """
     знайти різницю між найбільшим (максимум) і найменшим (мінімум) елементом
 
