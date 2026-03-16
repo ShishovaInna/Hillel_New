@@ -14,7 +14,7 @@ class Human:
         :return: int
         """
 
-        if self.data_death is not None:
+        if self.data_death is None:
             today = date.today()
         else:
             today = self.data_death
